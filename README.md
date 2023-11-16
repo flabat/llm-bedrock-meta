@@ -1,7 +1,7 @@
 # llm-bedrock-meta
 
-[![PyPI](https://img.shields.io/pypi/v/llm-llama-cpp.svg)](https://pypi.org/project/llm-llama-cpp/)
-[![Changelog](https://img.shields.io/github/v/release/simonw/llm-llama-cpp?include_prereleases&label=changelog)](https://github.com/simonw/llm-llama-cpp/releases)
+[![PyPI](https://img.shields.io/pypi/v/llm-bedrock-meta.svg)](https://pypi.org/project/llm-bedrock-meta/)
+[![Changelog](https://img.shields.io/github/v/release/flabat/llm-bedrock-meta?include_prereleases&label=changelog)](https://github.com/flabat/llm-bedrock-meta/releases)
 [![Tests](https://github.com/flabat/llm-bedrock-meta/workflows/Test/badge.svg)](https://github.com/flabat/llm-bedrock-meta/actions?query=workflow%3ATest)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/flabat/llm-bedrock-meta/blob/main/LICENSE)
 

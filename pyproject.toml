@@ -20,3 +20,6 @@ Homepage = "https://github.com/flabat/llm-bedrock-meta"
 
 [project.entry-points.llm]
 bedrock_llama = "llm_bedrock_meta"
+
+[project.optional-dependencies]
+test = ["pytest"]

@@ -26,12 +26,22 @@ export AWS_PROFILE=personal
 
 ## Usage
 
-This plugin adds model called `bedrock-llama2-13b`.
+This plugin adds model called `bedrock-llama2-13b`. You can also use it with the alias `bl2`.
 
 You can query them like this:
 
 ```bash
 llm -m bedrock-llama2-13b "Ten great names for a new space station"
+```
+
+```bash
+llm -m bl2 "Ten great names for a new space station"
+```
+
+You can also chat with the model:
+
+```bash
+llm chat -m bl2
 ```
 
 ## Options

@@ -2,8 +2,8 @@
 
 [![PyPI](https://img.shields.io/pypi/v/llm-llama-cpp.svg)](https://pypi.org/project/llm-llama-cpp/)
 [![Changelog](https://img.shields.io/github/v/release/simonw/llm-llama-cpp?include_prereleases&label=changelog)](https://github.com/simonw/llm-llama-cpp/releases)
-[![Tests](https://github.com/simonw/llm-llama-cpp/workflows/Test/badge.svg)](https://github.com/simonw/llm-llama-cpp/actions?query=workflow%3ATest)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/simonw/llm-llama-cpp/blob/main/LICENSE)
+[![Tests](https://github.com/flabat/llm-bedrock-meta/workflows/Test/badge.svg)](https://github.com/flabat/llm-bedrock-meta/actions?query=workflow%3ATest)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/flabat/llm-bedrock-meta/blob/main/LICENSE)
 
 Plugin for [LLM](https://llm.datasette.io/) adding support for Meta LLama 2's  models in Amazon Bedrock
 

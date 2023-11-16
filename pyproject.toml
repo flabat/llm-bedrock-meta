@@ -1,0 +1,22 @@
+[project]
+name = "llm-bedrock-meta"
+version = "0.1"
+
+description = "LLM plugin for Meta Llama2 on AWS Bedrock"
+readme = "README.md"
+authors = [{name = "Fabian Labat"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+
+dependencies = [
+    "llm",
+    "boto3 >= 1.28.60",
+]
+
+[project.urls]
+Homepage = "https://github.com/flabat/llm-bedrock-meta"
+
+[project.entry-points.llm]
+bedrock_llama = "llm_bedrock_meta"

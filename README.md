@@ -26,7 +26,7 @@ export AWS_PROFILE=personal
 
 ## Usage
 
-This plugin adds model called `bedrock-llama2-13b`. You can also use it with the alias `bl2`.
+This plugin adds model called `bedrock-llama2-13b` and `bedrock-llama2-70b`. You can also use it with the alias `bl2` or `bl2-70`.
 
 You can query them like this:
 

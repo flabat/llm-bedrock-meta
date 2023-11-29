@@ -15,7 +15,12 @@ If a question does not make any sense, or is not factually coherent, explain why
 def register_models(register):
     register(
         BedrockLlama("meta.llama2-13b-chat-v1"),
-      aliases=("bedrock-llama2-13b", 'bl2'),
+        aliases=("bedrock-llama2-13b", 'bl2'),
+    )
+    register(
+        BedrockLlama("meta.llama2-70b-chat-v1"),
+        aliases=("bedrock-llama2-70b-chat-v1", "bl2-70")
+
     )
 
 class BedrockLlama(llm.Model):
@@ -33,7 +38,7 @@ class BedrockLlama(llm.Model):
 
         temperature: Optional[float] = Field(
             description="Temperature",
-            default=0.6,
+            default=0.5,
         )
 
         top_p: Optional[float] = Field(

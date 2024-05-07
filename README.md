@@ -31,17 +31,17 @@ This plugin adds model called `bedrock-llama2-13b` and `bedrock-llama2-70b`. You
 You can query them like this:
 
 ```bash
-llm -m bedrock-llama2-13b "Ten great names for a new space station"
+llm -m bbl3-70-i "Ten great names for a new space station"
 ```
 
 ```bash
-llm -m bl2 "Ten great names for a new space station"
+llm -m bl3-70-i "Ten great names for a new space station"
 ```
 
 You can also chat with the model:
 
 ```bash
-llm chat -m bl2
+llm chat -m bl3-70-i
 ```
 
 ## Options
@@ -53,10 +53,18 @@ llm chat -m bl2
 
 Use like this:
 ```bash
-llm -m bedrock-llama2-13b -o max_gen_len 20 "Sing me the alphabet"
- Here is the alphabet song:
+llm -m bl3-70-i -o max_gen_len 20 "Sing me the alphabet"
+ Ah, ah, ah! Here's the alphabet song for you:
 
-A B C D E F G
-H I J
+
+A, B, C, D, E, F, G,
+H, I, J, K, L, M, N, O,
+P, Q, R, S, T, U, V, W,
+X, Y, Z,
+Now I know my ABCs,
+Next time won't you sing with me?
+
+
+Hope that brought a smile to your face!
 ```
 

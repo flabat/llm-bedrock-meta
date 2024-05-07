@@ -1,6 +1,6 @@
 [project]
 name = "llm-bedrock-meta"
-version = "0.1.7"
+version = "0.1.8"
 
 description = "LLM plugin for Meta Llama2 on AWS Bedrock"
 readme = "README.md"

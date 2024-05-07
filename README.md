@@ -5,7 +5,7 @@
 [![Tests](https://github.com/flabat/llm-bedrock-meta/workflows/Test/badge.svg)](https://github.com/flabat/llm-bedrock-meta/actions?query=workflow%3ATest)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/flabat/llm-bedrock-meta/blob/main/LICENSE)
 
-Plugin for [LLM](https://llm.datasette.io/) adding support for Meta LLama 2's  models in Amazon Bedrock
+Plugin for [LLM](https://llm.datasette.io/) adding support for Meta LLama 2 and 3 models in Amazon Bedrock
 
 ## Installation
 
@@ -26,12 +26,12 @@ export AWS_PROFILE=personal
 
 ## Usage
 
-This plugin adds model called `bedrock-llama2-13b` and `bedrock-llama2-70b`. You can also use it with the alias `bl2` or `bl2-70`.
+This plugin adds models called `bedrock-llama2-13b`, `bedrock-llama2-70b`, `bedrock-llama3-8b-instruct`, and `bedrock-llama3-70b-instruct`. You can also use it with the aliases like `bl2` or `bl2-70`.
 
 You can query them like this:
 
 ```bash
-llm -m bbl3-70-i "Ten great names for a new space station"
+llm -m bl3-70-i "Ten great names for a new space station"
 ```
 
 ```bash
